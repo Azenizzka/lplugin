@@ -28,7 +28,7 @@ public class LoginCMD implements CommandExecutor {
                     if (password.equals(text)) {
                         ulpm.delUnLoggedPlayers(uuid);
                         player.setAllowFlight(false);
-                        Util.sendTitle(player, "&7Успешная авторизация!", "&2Приятной игры&c❤", 60);
+                        Util.sendTitle(player, "&7Успешная авторизация!", "&2Приятной игры&c❤", 30);
                     } else {
                         player.kickPlayer(ChatColor.translateAlternateColorCodes('&', "&cНеверный &7пароль!"));
                     }
