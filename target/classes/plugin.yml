@@ -1,0 +1,32 @@
+name: LPlugin
+version: '1.0'
+main: me.azeniz.lplugin.Plugin
+api-version: 1.19
+authors: [Azeniz]
+
+commands:
+  bowtp:
+  bowtnt:
+  coords:
+    aliases:
+      - coord
+      - coo
+      - crd
+  register:
+    aliases:
+      - reg
+  login:
+    aliases:
+      - log
+      - l
+  vanish:
+    aliases:
+      - v
+  pm:
+    aliases:
+      - msg
+      - m
+      - w
+      - write
+      - message
+  sit:
